@@ -1,0 +1,42 @@
+.main-footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 3vw;
+	width: 100%;
+	flex-wrap: wrap;
+}
+.container{
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+}
+
+.container-top{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+	flex-wrap: wrap;
+}
+.container-bottom{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+	flex-wrap: wrap;
+}
+.square {
+	border: 6px solid black;
+	margin: 2px;
+	width: 350px;
+	height: 350px;
+}
+/* add a media query for screens smaller than 350px: */
+@media screen and (max-width: 350px) {
+  .square {
+	width: 96vw;
+	height: 96vw;
+  }
+}
