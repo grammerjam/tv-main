@@ -6,3 +6,14 @@
 	width: 100%;
 	flex-wrap: wrap;
 }
+
+.bullet-section{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.bullet{
+	justify-content: center;
+	margin: 20px;
+}
