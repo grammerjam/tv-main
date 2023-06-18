@@ -13,7 +13,51 @@
 	justify-content: center;
 }
 
-.bullet{
+#bullet{
 	justify-content: center;
-	margin: 20px;
+	margin: 80px;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+.icon{
+	width: 10%;
+}
+
+header{
+	justify-content: center;
+}
+
+#why-choose{
+	font-family: sans-serif;
+	justify-content: center;
+	text-align: center;
+}
+
+.image{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+}
+
+#latest-articles{
+	font-family: sans-serif;
+}
+
+.byline{
+	color: gray;
+	font-size: small;
+	text-align: center;
+}
+
+.title{
+	color: black;
+	text-align: center;
+}
+
+.text{
+	font-size: large;
+	color: gray;
+	text-align: center;
 }
